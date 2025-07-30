@@ -1,8 +1,7 @@
-version: '3.8'
 
 services:
   financeweb:
-    image: mwloretz/finance-web-1
+    image: mwloretz/finance-web-1:v1
     container_name: financeworks
     networks:
       - traefik-network
